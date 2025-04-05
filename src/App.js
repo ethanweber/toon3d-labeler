@@ -499,7 +499,9 @@ function App() {
       <Button variant="outline-primary" onClick={onUploadImages} className="me-2">Upload Images</Button>
       <Button variant="outline-primary" onClick={onUploadZIP} className="me-2">Upload ZIP</Button>
       <Button variant="outline-primary" onClick={onShowInstructions} className="me-2">Instructions</Button>
-      <Button variant="outline-primary" href="https://toon3d.studio" target="_blank">Project Page</Button>
+      <Button variant="outline-primary" href="https://toon3d.studio" target="_blank" className="me-2">Project Page</Button>
+      <Button variant="outline-primary" href="https://github.com/ethanweber/toon3d" target="_blank" className="me-2">Toon3D Code</Button>
+      <Button variant="outline-primary" href="https://github.com/ethanweber/toon3d-labeler" target="_blank">Labeler Code</Button>
       <hr />
       <Instructions show={showInstructions} onHide={onCloseInstructions} />
       <Gallery
