@@ -1,0 +1,39 @@
+.gallery-row {
+  margin-bottom: 10px;
+}
+
+.gallery-item {
+  height: 4em; /* Adjust the height of each gallery item */
+  margin-right: 10px; /* Adjust the spacing between gallery items */
+  cursor: pointer;
+}
+
+.gallery-item-left-selected {
+  border-left: 10px solid red;
+}
+
+.gallery-item-right-selected {
+  border-right: 10px solid blue;
+}
+
+.gallery-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 1px solid #ddd; /* Add a border to each image for better visibility */
+}
+
+.hovered-image-left {
+  border-bottom: 2px solid red;
+}
+
+.hovered-image-right {
+  border-bottom: 2px solid blue;
+}
+
+.btn-xs {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  line-height: 1;
+  border-radius: 0.2rem;
+}
